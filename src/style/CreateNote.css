@@ -1,0 +1,60 @@
+.create-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 995px;
+  height: 366px;
+  margin-left: 269px;
+  border-radius: 16px;
+  opacity: 0.8;
+  gap: 12px;
+  background: var(--Secondary, #f5f5f5);
+  box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
+}
+
+.note-text {
+  color: var(--accent, #203562);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44.8px;
+  opacity: 0.8;
+  padding-right: 781px;
+}
+
+.title-input {
+  width: 901px;
+  height: 31px;
+  border-radius: 8px;
+  border: #f5f5f5;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.8px;
+}
+
+.take-notes {
+  width: 942px;
+  height: 219px;
+  font-family: Montserrat;
+  border-radius: 7px;
+  opacity: 0.8;
+  border: #f5f5f5;
+}
+
+.add-btn {
+  border-radius: 5px;
+  border: #f5f5f5;
+  cursor: pointer;
+  background: linear-gradient(138deg, #f5f5f5 0%, #a9b4c7 100%);
+  font-size: 20px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  opacity: 0.6;
+}
+
+.add-btn:hover {
+  opacity: 0.4;
+}
